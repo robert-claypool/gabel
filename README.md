@@ -4,15 +4,11 @@ Safely copy GitHub labels between repositories. Review everything before making 
 
 ## Install
 
-Download the latest binary:
-- [macOS (Intel)](https://github.com/robert-claypool/gable/releases/latest/download/gable-darwin-amd64)
-- [macOS (Apple Silicon)](https://github.com/robert-claypool/gable/releases/latest/download/gable-darwin-arm64)
-- [Linux](https://github.com/robert-claypool/gable/releases/latest/download/gable-linux-amd64)
-- [Windows](https://github.com/robert-claypool/gable/releases/latest/download/gable-windows-amd64.exe)
-
-Make it executable and move to your PATH:
+Clone and build with Go:
 ```bash
-chmod +x gable
+git clone https://github.com/robert-claypool/gable.git
+cd gable
+go build -o gable
 mv gable /usr/local/bin/
 ```
 
