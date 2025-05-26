@@ -1,4 +1,4 @@
-module github.com/robert-claypool/gable
+module github.com/robert-claypool/gabel
 
 go 1.20
 

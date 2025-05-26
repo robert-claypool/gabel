@@ -14,11 +14,12 @@ var (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "gable source-repo dest-repo",
-	Short: "Safely copy GitHub labels between repositories",
-	Long:  "Gable helps you copy GitHub labels from one repo to another with an interactive picker.",
-	Args:  cobra.ExactArgs(2),
-	Run:   run,
+	Use:     "gabel source-repo dest-repo",
+	Short:   "Safely copy GitHub labels between repositories",
+	Long:    "Gabel helps you copy GitHub labels from one repo to another with an interactive picker.",
+	Version: Version,
+	Args:    cobra.ExactArgs(2),
+	Run:     run,
 }
 
 func init() {

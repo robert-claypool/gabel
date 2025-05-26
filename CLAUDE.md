@@ -4,16 +4,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Gable is a CLI tool that helps users copy GitHub labels between repositories with an interactive picker.
+Gabel is a CLI tool that helps users copy GitHub labels between repositories with an interactive picker.
 
 ## Commands
 
 ```bash
 # Build
-go build -o gable
+go build -o gabel
 
 # Run
-./gable owner/source owner/dest
+./gabel owner/source owner/dest
 
 # Test
 go test ./...

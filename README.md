@@ -1,4 +1,4 @@
-# Gable
+# Gabel
 
 Safely copy GitHub labels between repositories. Review everything before making changes - you're always in control.
 
@@ -6,17 +6,17 @@ Safely copy GitHub labels between repositories. Review everything before making 
 
 Clone and build with Go:
 ```bash
-git clone https://github.com/robert-claypool/gable.git
-cd gable
-go build -o gable
-mv gable /usr/local/bin/
+git clone https://github.com/robert-claypool/gabel.git
+cd gabel
+go build -o gabel
+mv gabel /usr/local/bin/
 ```
 
 ## Usage
 
 ```bash
-gable -h # show help
-gable owner/source owner/dest
+gabel -h # show help
+gabel owner/source owner/dest
 ```
 
 This opens an interactive picker showing all labels from both repos (source and destination). Use arrow keys to navigate, Space to toggle, Enter to confirm selections.
@@ -36,7 +36,7 @@ Current state → Desired state for myorg/myproject:
 
 ## Requirements
 
-**GitHub CLI is required.** Gable uses the GitHub CLI to interact with GitHub.
+**GitHub CLI is required.** Gabel uses the GitHub CLI to interact with GitHub.
 
 1. [Install GitHub CLI](https://cli.github.com)
 2. Run `gh auth login` to authenticate
